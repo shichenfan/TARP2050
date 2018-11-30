@@ -48,10 +48,13 @@ var counters;
 var strokeBool = true;
 var map;
 var rawRows;
+var options={
+  minZoom:9
+};
 // Provide your access token
 	L.mapbox.accessToken = 'pk.eyJ1IjoiYXRscmVnaW9uYWwiLCJhIjoiQmZ6d2tyMCJ9.oENm3NSf--qHrimdm9Vvdw';
 	// Create a map in the div #map
-	map = L.mapbox.map('map', 'atlregional.tm2-basemap');
+	map = L.mapbox.map('map', 'atlregional.tm2-basemap',options).setView([ 33.45,-84.23]);
 
 	map.on('click', function(e) {
 		// console.log(e);
