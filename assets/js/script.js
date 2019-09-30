@@ -95,7 +95,7 @@ var searchHighlightIds = [];
 
 var xVariablePreset = 'current_score'
 var yVariablePreset = 'future_score'
-var rVariablePreset = 'bc_2040'
+var rVariablePreset = 'bc_2050'
 var colorVariablePreset = 'total_cost'
 var defaultHex = "#f768a1";
 var variableMap = {
@@ -123,9 +123,9 @@ var variableMap = {
 		"column_chart": false,
 		"format": "dollar"
 	},
-	"benefit_2040":{
-		"name": "2040 Benefit in Millions",
-		"description": "Monetary benefit of the project in millions if it is built in 2040",
+	"benefit_2050":{
+		"name": "2050 Benefit in Millions",
+		"description": "Monetary benefit of the project in millions if it is built in 2050",
 		"column_chart": false,
 		"format": "dollar"
 	},
@@ -135,9 +135,9 @@ var variableMap = {
 		"column_chart": false,
 		"format": "decimal"
 	},
-	"bc_2040":{
-		"name": "2040 Benefit/Cost",
-		"description": "Benefit/Cost of project if it were built in 2040 ",
+	"bc_2050":{
+		"name": "2050 Benefit/Cost",
+		"description": "Benefit/Cost of project if it were built in 2050 ",
 		"column_chart": false,
 		"format": "decimal"
 	},
@@ -785,11 +785,11 @@ function getStationData(layer, source){
 	categories.splice(index, 1);
 	index = categories.indexOf('benefit_2015');
 	categories.splice(index, 1);
-	index = categories.indexOf('benefit_2040');
+	index = categories.indexOf('benefit_2050');
 	categories.splice(index, 1);
 	index = categories.indexOf('bc_2015');
 	categories.splice(index, 1);
-	index = categories.indexOf('bc_2040');
+	index = categories.indexOf('bc_2050');
 	categories.splice(index, 1);
 	index = categories.indexOf('current_score');
 	categories.splice(index, 1);
@@ -819,7 +819,7 @@ function getStationData(layer, source){
 		data: data,
 		county: countyData[county]
 	};
-	var variableList = ['current_score', 'future_score', 'total_cost', 'bc_2015', 'bc_2040'];
+	var variableList = ['current_score', 'future_score', 'total_cost', 'bc_2015', 'bc_2050'];
 	drawBarChart(chartData, 'totals');
 	var summaryString = getSummaryString(variableList, csvMap[id][0]);
 	$('#data-summary')
