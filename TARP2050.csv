@@ -1,6 +1,6 @@
-ID,county,total_cost,benefit_2015,benefit_2040,bc_2015,bc_2040,current_congestion,current_safety,current_freight,current_reliability,current_eta,current_air,current_access,current_score,future_congestion,future_access,future_freight,future_deliverable,future_air,future_volume,future_score
+ID,county,total_cost,benefit_2015,benefit_2050,bc_2015,bc_2050,current_congestion,current_safety,current_freight,current_reliability,current_eta,current_air,current_access,current_score,future_congestion,future_access,future_freight,future_deliverable,future_air,future_volume,future_score
 AR-318,Henry,1210735617,-261986.6604,10351981.24,-0.003648678,2.68113211,,,,,,,,,1.032172007,,,,,,
-AR-319,DeKalb ,21420000,25579290.69,2018564.229,7.457416342,8.635275387,1.843442581,,,,,,,,2.327206918,,,,,,
+AR-319,DeKalbÂ ,21420000,25579290.69,2018564.229,7.457416342,8.635275387,1.843442581,,,,,,,,2.327206918,,,,,,
 AR-955,Henry,25000000,6765455.971,665949.4202,4.46767275,0.369718195,,,,,,,,,1.055727321,,,,,,
 AR-957A,Fulton,590458243,57171421.62,2615632.165,1.474490411,0.794965122,,,,,,,,,1.552810054,,,,,,
 AR-962,Gwinnett,112143067,6293291.017,6842277.336,1.003038597,2.450796505,,,,,,,,,2.575423105,,,,,,
@@ -133,5 +133,5 @@ RO-242A,Rockdale,129889107,7479985.346,,0.902760729,,1.194323451,,,,,,,,1.147024
 RO-243,Rockdale,23537915,5657516.696,,3.36389133,,,,,,,,,,1.003302538,,,,,,
 RO-AR-138,Rockdale,60177422,5658099.195,,1.583784697,,1.217705437,,,,,,,,1.339136257,,,,,,
 SP-067B,Spalding,38667196,5830279.607,,1.885400307,,1.009283446,,,,,,,,1.002814705,,,,,,
-WA-003,Walton ,35619530,7147825.538,,2.208989283,,,,,,,,,,1.001016658,,,,,,
-WA-021,Walton ,5000469,5963585.661,,13.78995092,,1.211778902,,,,,,,,1.092263902,,,,,,
+WA-003,WaltonÂ ,35619530,7147825.538,,2.208989283,,,,,,,,,,1.001016658,,,,,,
+WA-021,WaltonÂ ,5000469,5963585.661,,13.78995092,,1.211778902,,,,,,,,1.092263902,,,,,,
