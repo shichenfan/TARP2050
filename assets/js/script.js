@@ -167,13 +167,13 @@ var variableMap = {
 	},
 	"current_eta":{
 		"name": "Current Equity Index",
-		"description": "Whether or not project lies within an ETA",
+		"description": "Whether or not project lies within one of Top 2 tier of EJ score",
 		"column_chart": true,
 		"format": "decimal"
 	},
 	"current_air":{
 		"name": "Current Air Quality Index",
-		"description": "Average concentration of particulate matter around project link ",
+		"description": "Average concentration of fine particulate matter around project link ",
 		"column_chart": true,
 		"format": "decimal"
 	},
@@ -191,7 +191,7 @@ var variableMap = {
 	},
 	"future_congestion":{
 		"name": "Future Congestion Index",
-		"description": "Difference in VHD on the project link build-no build",
+		"description": "Difference in Vehicle-Hours of Delay(VHD) on the project link build-no build",
 		"column_chart": true,
 		"format": "decimal"
 	},
@@ -203,19 +203,19 @@ var variableMap = {
 	},
 	"future_freight":{
 		"name": "Future Freight Index",
-		"description": "Difference in truck VMT on link build-no build",
+		"description": "Difference in truck Vehicle Miles Traveled(VMT) on link build-no build",
 		"column_chart": true,
 		"format": "decimal"
 	},
 	"future_deliverable":{
 		"name": "Future Deliverability Index",
-		"description": "Total environmental obstacles along project links inversed so high value= high deliverability",
+		"description": "Total environmental obstacles along project links inversed so high value stand for high deliverability",
 		"column_chart": true,
 		"format": "decimal"
 	},
 	"future_air":{
 		"name": "Future Air Quality Index",
-		"description": "Difference in level of particulates regionally build-no build",
+		"description": "Difference in level of fine particulate matter regionally build-no build",
 		"column_chart": true,
 		"format": "decimal"
 	},
