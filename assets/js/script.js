@@ -167,7 +167,7 @@ var variableMap = {
 	},
 	"current_eta":{
 		"name": "Current Equity Index",
-		"description": "Whether or not project lies within one of Top 2 tier of EJ score",
+		"description": "Whether or not project lies within one of Top 2 tier of Environmetal Justice(EJ) score",
 		"column_chart": true,
 		"format": "decimal"
 	},
