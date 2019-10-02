@@ -160,7 +160,7 @@ var variableMap = {
 		"format": "decimal"
 	},
 	"current_reliability":{
-		"name": "Current Reliability Index",
+		"name": "Current Buffer Index",
 		"description": "Trip reliability on project link using Buffer Index",
 		"column_chart": true,
 		"format": "decimal"
