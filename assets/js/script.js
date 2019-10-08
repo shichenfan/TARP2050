@@ -226,7 +226,7 @@ var variableMap = {
 		"format": "decimal"
 	},
 	"future_score":{
-		"name": "Future Performance",
+		"name": "Future Performance Indices",
 		"description": "The sum of the weighted future data points indicating performance",
 		"column_chart": false,
 		"format": "decimal"
