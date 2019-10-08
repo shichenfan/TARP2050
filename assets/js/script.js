@@ -184,7 +184,7 @@ var variableMap = {
 		"format": "decimal"
 	},
 	"current_score":{
-		"name": "Current Need",
+		"name": "Current Need Indices",
 		"description": "The sum of the weighted current data points indicating need",
 		"column_chart": false,
 		"format": "decimal"
