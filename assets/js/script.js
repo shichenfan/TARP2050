@@ -764,7 +764,7 @@ function getStationData(layer, source){
 	
 	description += closeChartButton;
 	if (layer.feature.properties.Fact_Sheet !== null){
-		description += '<br/><a class="btn btn-default btn-xs" href="'+layer.feature.properties.Fact_Sheet+'"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> View Fact Sheet</a>';
+		description += '<br/><a class="btn btn-default btn-xs" href="'+layer.feature.properties.Fact_Sheet+'" target="_blank"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span> View Fact Sheet</a>';
 	}
 	var county = csvMap[id][0].county;
 	// console.log(county);
